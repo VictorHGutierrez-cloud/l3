@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta Comercial | Factorial RH & L3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .nav-link {
+            @apply px-3 py-2 rounded-md text-sm font-medium text-stone-600 hover:bg-stone-200 hover:text-stone-900 transition-colors;
+        }
+        .nav-link.active {
+            @apply text-white hover:text-white;
+            background-color: #1e3a5f;
+        }
+        .nav-link.active:hover {
+            background-color: #2c4a6f;
+        }
+        .tab-link {
+            @apply px-4 py-2 text-lg font-medium rounded-t-lg transition-colors duration-200;
+        }
+        .tab-link.active {
+            @apply border-b-4 text-white;
+            border-color: #1e3a5f;
+            color: #1e3a5f;
+        }
+        .tab-link:not(.active) {
+            @apply text-stone-500 hover:text-stone-800;
+        }
+        .highlight-box {
+            @apply bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg border-l-4 border-blue-600;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+    <header class="bg-white backdrop-blur-sm shadow-sm sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <h1 class="text-xl font-bold" style="color: #1e3a5f;">Factorial <span class="text-stone-600">& L3</span></h1>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-4 sm:items-center">
+                    <a href="#resumo" class="nav-link active" data-nav-link>Resumo</a>
+                    <a href="#contexto" class="nav-link" data-nav-link>Contexto L3</a>
+                    <a href="#dores-solucoes" class="nav-link" data-nav-link>Dores & Soluções</a>
+                    <a href="#modulos" class="nav-link" data-nav-link>Módulos Propostos</a>
+                    <a href="#investimento" class="nav-link" data-nav-link>Investimento</a>
+                    <a href="#integracao" class="nav-link" data-nav-link>Integração Microsoft</a>
+                </div>
+                <div class="sm:hidden flex items-center">
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-stone-500 hover:text-stone-800 hover:bg-stone-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
+                        <span class="sr-only">Abrir menu principal</span>
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="sm:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#resumo" class="block nav-link active" data-nav-link>Resumo</a>
+                <a href="#contexto" class="block nav-link" data-nav-link>Contexto L3</a>
+                <a href="#dores-solucoes" class="block nav-link" data-nav-link>Dores & Soluções</a>
+                <a href="#modulos" class="block nav-link" data-nav-link>Módulos Propostos</a>
+                <a href="#investimento" class="block nav-link" data-nav-link>Investimento</a>
+                <a href="#integracao" class="block nav-link" data-nav-link>Integração Microsoft</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <section id="resumo" class="scroll-mt-20 mb-16">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold tracking-tight text-stone-900 mb-4">Proposta Factorial para L3</h2>
+                <p class="text-xl text-stone-600 max-w-3xl mx-auto">
+                    Solução completa de gestão de pessoas para centralizar processos, automatizar rotinas e integrar com seu ecossistema Microsoft
+                </p>
+            </div>
+
+            <div class="highlight-box mb-8">
+                <h3 class="text-2xl font-bold mb-4" style="color: #1e3a5f;">🎯 Objetivo Principal</h3>
+                <p class="text-lg text-stone-700 mb-4">
+                    Eliminar processos manuais e descentralizados (planilhas, SharePoint, Teams, Drive) através de um sistema único integrado que centraliza toda a gestão de pessoas, desde cadastro até análises avançadas.
+                </p>
+                <p class="text-lg text-stone-700">
+                    <strong>Urgência:</strong> Necessidade de implementar sistema de ponto devido à aproximação com sindicato para acordos de PLR em 2025.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600 text-center">
+                    <h3 class="text-base font-medium text-stone-500 mb-2">Perfil da Empresa</h3>
+                    <p class="text-3xl font-bold" style="color: #2563eb;">60-70</p>
+                    <p class="text-sm text-stone-600 mt-2">Colaboradores</p>
+                    <p class="text-xs text-stone-500 mt-1">60-70% PJ | 30-40% CLT</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-emerald-600 text-center">
+                    <h3 class="text-base font-medium text-stone-500 mb-2">Modelo de Trabalho</h3>
+                    <p class="text-3xl font-bold" style="color: #059669;">100%</p>
+                    <p class="text-sm text-stone-600 mt-2">Remoto</p>
+                    <p class="text-xs text-stone-500 mt-1">Time espalhado pelo Brasil</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-slate-600 text-center">
+                    <h3 class="text-base font-medium text-stone-500 mb-2">Parceria Estratégica</h3>
+                    <p class="text-2xl font-bold" style="color: #475569;">Microsoft</p>
+                    <p class="text-sm text-stone-600 mt-2">Partner no Brasil</p>
+                    <p class="text-xs text-stone-500 mt-1">Dynamics, DevOps, BI, Azure</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contexto" class="scroll-mt-20 mb-16">
+            <h2 class="text-3xl font-bold tracking-tight text-stone-900 mb-6">Contexto da L3</h2>
+            
+            <div class="bg-white p-8 rounded-lg shadow-md border border-stone-200 mb-6">
+                <h3 class="text-xl font-bold mb-4" style="color: #1e3a5f;">Sobre a Empresa</h3>
+                <ul class="space-y-3 text-stone-700">
+                    <li class="flex items-start">
+                        <span class="mr-3 text-blue-600 font-bold">•</span>
+                        <span><strong>Consultoria</strong> com quase 20 anos de mercado, especializada em soluções Microsoft</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3 text-blue-600 font-bold">•</span>
+                        <span><strong>Boom de crescimento</strong> nos últimos 2 anos em número de pessoas e faturamento</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3 text-blue-600 font-bold">•</span>
+                        <span><strong>Estrutura atual:</strong> Processos manuais e descentralizados (planilhas Excel, SharePoint, Teams, Drive)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3 text-blue-600 font-bold">•</span>
+                        <span><strong>Desafio:</strong> Falta de base de dados consolidada, risco de informações desencontradas</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-lg shadow-md border border-stone-200">
+                <h3 class="text-xl font-bold mb-4" style="color: #1e3a5f;">Equipe Envolvida</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-stone-50 p-4 rounded-lg">
+                        <h4 class="font-semibold text-stone-800 mb-2">Fabiana Zanini</h4>
+                        <p class="text-sm text-stone-600">Líder de RH | Gestão geral de pessoas, projetos estratégicos</p>
+                    </div>
+                    <div class="bg-stone-50 p-4 rounded-lg">
+                        <h4 class="font-semibold text-stone-800 mb-2">Ellen Freitas</h4>
+                        <p class="text-sm text-stone-600">DP | Admissões, exames, documentação, Convênia, VR/VA</p>
+                    </div>
+                    <div class="bg-stone-50 p-4 rounded-lg">
+                        <h4 class="font-semibold text-stone-800 mb-2">Cristiane Oliveira</h4>
+                        <p class="text-sm text-stone-600">Recrutamento e Seleção | Triagem, entrevistas, gestão de vagas</p>
+                    </div>
+                    <div class="bg-stone-50 p-4 rounded-lg">
+                        <h4 class="font-semibold text-stone-800 mb-2">Leonardo H. Lopes</h4>
+                        <p class="text-sm text-stone-600">Financeiro | Contas a pagar/receber, custos de colaboradores, integração Dynamics</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dores-solucoes" class="scroll-mt-20 mb-16">
+            <h2 class="text-3xl font-bold tracking-tight text-stone-900 mb-6">Dores Identificadas e Soluções Factorial</h2>
+            
+            <div class="space-y-6">
+                <!-- Dor 1: Sistema de Ponto URGENTE -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-red-600">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-4 bg-red-600">1</div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-stone-900 mb-3">🚨 Sistema de Ponto - URGENTE</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Dor:</h4>
+                                    <p class="text-stone-700 text-sm">Aproximação com sindicato para acordos de PLR em 2025. <strong>Não existe sistema de ponto hoje.</strong> Usam apontamento de horas em projetos como base para banco de horas, mas não atende requisitos legais. Necessidade urgente de implementar antes das negociações.</p>
+                                </div>
+                                <div class="bg-emerald-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Solução Factorial:</h4>
+                                    <ul class="text-stone-700 text-sm space-y-1">
+                                        <li>✓ Controle de ponto web (100% remoto) e mobile</li>
+                                        <li>✓ Banco de horas automático e diário</li>
+                                        <li>✓ Espelho de ponto completo para contabilidade</li>
+                                        <li>✓ Aprovações pelo celular (gestor e RH)</li>
+                                        <li>✓ Integração automática com férias e ausências</li>
+                                        <li>✓ Atende requisitos legais para negociação sindical</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dor 2: Processos Descentralizados -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-orange-600">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-4 bg-orange-600">2</div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-stone-900 mb-3">Processos Manuais e Descentralizados</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Dor:</h4>
+                                    <p class="text-stone-700 text-sm">Informações espalhadas: planilhas Excel, SharePoint, Teams, Drive. Cada processo fica em lugar diferente. Sem base de dados consolidada. Risco constante de informações desencontradas. Muitas tarefas operacionais que impedem trabalho estratégico.</p>
+                                </div>
+                                <div class="bg-emerald-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Solução Factorial:</h4>
+                                    <ul class="text-stone-700 text-sm space-y-1">
+                                        <li>✓ Sistema único integrado: tudo em um só lugar</li>
+                                        <li>✓ Base de dados consolidada e estruturada</li>
+                                        <li>✓ Portal centralizado para colaborador e gestor</li>
+                                        <li>✓ Eliminação de planilhas e processos manuais</li>
+                                        <li>✓ Informações sempre atualizadas e sincronizadas</li>
+                                        <li>✓ Mais tempo para projetos estratégicos (cargos/salários, clima, universidade corporativa)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dor 3: Gestão de Projetos e Custos -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-600">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-4 bg-purple-600">3</div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-stone-900 mb-3">Gestão de Projetos e Custos de Colaboradores</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Dor:</h4>
+                                    <p class="text-stone-700 text-sm">Controle de custos feito em planilhas. Custo ponderado do colaborador (salário + benefícios + provisões) calculado manualmente. Apontamento de horas em projetos (horas billable) separado do controle de custos. Necessidade de cruzar dados manualmente para calcular margem por contrato/cliente. Integração com Dynamics CRM é manual.</p>
+                                </div>
+                                <div class="bg-emerald-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Solução Factorial:</h4>
+                                    <ul class="text-stone-700 text-sm space-y-1">
+                                        <li>✓ Gestão de projetos integrada com apontamento de horas</li>
+                                        <li>✓ Cálculo automático de custo hora ponderado</li>
+                                        <li>✓ Alocação de horas por projeto/contrato</li>
+                                        <li>✓ Cálculo automático de margem por cliente</li>
+                                        <li>✓ API para integração com Dynamics CRM</li>
+                                        <li>✓ Relatórios de rentabilidade e portfólio de clientes</li>
+                                        <li>✓ Controle de horas billable vs. horas internas</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dor 4: Gestão CLT e PJ -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-indigo-600">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-4 bg-indigo-600">4</div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-stone-900 mb-3">Gestão Mista: CLT e PJ (60-70% PJ)</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Dor:</h4>
+                                    <p class="text-stone-700 text-sm">Maioria dos colaboradores é PJ. Necessidade de gestão diferenciada: férias (15 dias a cada 12 meses para PJ), documentos (notas fiscais), benefícios (Convênia aplicado para todos). Sistema precisa atender ambos os perfis sem criar risco trabalhista. Planos de carreira para PJ é desafio.</p>
+                                </div>
+                                <div class="bg-emerald-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Solução Factorial:</h4>
+                                    <ul class="text-stone-700 text-sm space-y-1">
+                                        <li>✓ Gestão unificada de CLT e PJ na mesma plataforma</li>
+                                        <li>✓ Contador de ausências para PJ (não chama "férias")</li>
+                                        <li>✓ Pasta específica para notas fiscais de PJ</li>
+                                        <li>✓ Gestão de benefícios para ambos os perfis</li>
+                                        <li>✓ Avaliação de desempenho para PJ (já assumem risco de subordinação)</li>
+                                        <li>✓ Banco de horas para CLT e PJ</li>
+                                        <li>✓ Documentos ilimitados com assinatura eletrônica</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dor 5: Admissão e Documentos -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-600">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-4 bg-teal-600">5</div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-stone-900 mb-3">Admissão e Gestão de Documentos</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Dor:</h4>
+                                    <p class="text-stone-700 text-sm">Processo de admissão via e-mail e planilhas. Documentos espalhados. PJs enviam notas fiscais por e-mail para financeiro. Contratos PJ feitos manualmente. Uso de D4Sign (limite de 20 assinaturas/mês, custo adicional). Solerites precisam ser separados manualmente e enviados um por um.</p>
+                                </div>
+                                <div class="bg-emerald-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Solução Factorial:</h4>
+                                    <ul class="text-stone-700 text-sm space-y-1">
+                                        <li>✓ Fluxo de trabalho completo de onboarding</li>
+                                        <li>✓ Admissão digital com coleta de documentos</li>
+                                        <li>✓ Assinatura eletrônica ilimitada (sem custo extra)</li>
+                                        <li>✓ Distribuição automática de solerites por colaborador</li>
+                                        <li>✓ Organização automática em pastas (contratos, dependentes, etc.)</li>
+                                        <li>✓ Modelos de documentos personalizados (contrato PJ, etc.)</li>
+                                        <li>✓ Integração com Dynamics para cadastro automático</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dor 6: Férias e Ausências -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-cyan-600">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-4 bg-cyan-600">6</div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-stone-900 mb-3">Gestão de Férias e Ausências</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Dor:</h4>
+                                    <p class="text-stone-700 text-sm">Controle manual via planilhas e cards no Planner. Gestor negocia com PJ via WhatsApp, depois Ellen inicia processo. Sem visibilidade clara de quem está de férias. Processo fragmentado e trabalhoso.</p>
+                                </div>
+                                <div class="bg-emerald-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Solução Factorial:</h4>
+                                    <ul class="text-stone-700 text-sm space-y-1">
+                                        <li>✓ Solicitação pelo app mobile</li>
+                                        <li>✓ Aprovação pelo gestor (visão de calendário da equipe)</li>
+                                        <li>✓ Contador automático: 15 dias PJ (a cada 12 meses) | 30 dias CLT</li>
+                                        <li>✓ Calendário consolidado da equipe</li>
+                                        <li>✓ Histórico completo de ausências</li>
+                                        <li>✓ Atestados digitais integrados</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dor 7: Pesquisas e Avaliação -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-pink-600">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-4 bg-pink-600">7</div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-stone-900 mb-3">Pesquisas de Clima e Avaliação de Desempenho</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Dor:</h4>
+                                    <p class="text-stone-700 text-sm">Avaliação semestral básica via planilha. Pesquisa de clima há anos sem ser feita. Uso de Microsoft Forms. Falta de aderência. Processo trabalhoso e difícil de executar.</p>
+                                </div>
+                                <div class="bg-emerald-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Solução Factorial:</h4>
+                                    <ul class="text-stone-700 text-sm space-y-1">
+                                        <li>✓ Pesquisas respondidas pelo celular (aumenta aderência)</li>
+                                        <li>✓ Pesquisa de clima 100% anônima (LGPD/GDPR)</li>
+                                        <li>✓ Avaliação semestral com competências (escala 1-4)</li>
+                                        <li>✓ Autoavaliação + validação do gestor</li>
+                                        <li>✓ Mapa de teia de competências</li>
+                                        <li>✓ Agendamento automático e lembretes</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dor 8: Integração e Analytics -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-slate-600">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-4 bg-slate-600">8</div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-stone-900 mb-3">Integração Microsoft e Analytics</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Dor:</h4>
+                                    <p class="text-stone-700 text-sm">Necessidade de integrar com Dynamics CRM, Power BI, Azure. Dados precisam ser exportados manualmente. Fabiana usa Power BI extensivamente (25 painéis) e precisa de dados estruturados, não apenas dashboards.</p>
+                                </div>
+                                <div class="bg-emerald-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-stone-800 mb-2">Solução Factorial:</h4>
+                                    <ul class="text-stone-700 text-sm space-y-1">
+                                        <li>✓ Integração nativa com Microsoft (Outlook, Calendar, Dynamics, Azure)</li>
+                                        <li>✓ API completa e bem documentada</li>
+                                        <li>✓ Editor SQL integrado para queries personalizadas</li>
+                                        <li>✓ Exportação em XLSX, CSV para Power BI</li>
+                                        <li>✓ SSO com Microsoft (login único)</li>
+                                        <li>✓ Integração com Dynamics para cadastro automático de colaboradores</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modulos" class="scroll-mt-20 mb-16">
+            <h2 class="text-3xl font-bold tracking-tight text-stone-900 mb-6">Módulos Propostos para L3</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-red-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #dc2626;">🚨 Controle de Ponto</h4>
+                    <p class="text-sm text-stone-600 mb-3"><strong>PRIORIDADE MÁXIMA</strong> - Necessário para negociação sindical</p>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ Ponto web e mobile</li>
+                        <li>✓ Banco de horas automático</li>
+                        <li>✓ Espelho para contabilidade</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #2563eb;">Férias e Ausências</h4>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ CLT e PJ (contador de ausências)</li>
+                        <li>✓ Calendário consolidado</li>
+                        <li>✓ Atestados digitais</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #9333ea;">Gestão de Projetos</h4>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ Apontamento de horas</li>
+                        <li>✓ Cálculo de custo hora</li>
+                        <li>✓ Margem por cliente</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #0d9488;">Admissão Digital</h4>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ Fluxo de onboarding</li>
+                        <li>✓ Coleta de documentos</li>
+                        <li>✓ Assinatura eletrônica ilimitada</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #16a34a;">Recrutamento e Seleção</h4>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ Página de carreiras personalizada</li>
+                        <li>✓ Integração LinkedIn, Glassdoor, Indeed</li>
+                        <li>✓ Triagem por IA com match automático</li>
+                        <li>✓ Teste DISC ilimitado</li>
+                        <li>✓ Fluxo kanban personalizável</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-slate-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #475569;">Documentos</h4>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ Organização em pastas</li>
+                        <li>✓ Distribuição automática</li>
+                        <li>✓ Notas fiscais PJ</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-pink-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #db2777;">Pesquisas</h4>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ Clima anônimo</li>
+                        <li>✓ Respondidas pelo celular</li>
+                        <li>✓ Agendamento automático</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-indigo-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #4f46e5;">Desempenho</h4>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ Avaliação semestral</li>
+                        <li>✓ Competências (escala 1-4)</li>
+                        <li>✓ Mapa de teia</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-emerald-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #059669;">Compensation</h4>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ Exportação para contabilidade</li>
+                        <li>✓ Relatórios de folha</li>
+                        <li>✓ Integração com Meta</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-cyan-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #0891b2;">Analytics</h4>
+                    <ul class="space-y-1 text-stone-600 text-sm">
+                        <li>✓ API completa</li>
+                        <li>✓ Editor SQL</li>
+                        <li>✓ Integração Power BI</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="investimento" class="scroll-mt-20 mb-16">
+            <h2 class="text-3xl font-bold tracking-tight text-stone-900 mb-6">Investimento - Plano Enterprise</h2>
+            
+            <div class="bg-yellow-50 border-l-4 border-yellow-600 p-6 rounded-lg mb-6">
+                <p class="text-lg font-semibold text-stone-800 mb-2">⏰ Prazo para Aprovação</p>
+                <p class="text-stone-700">Aprovação necessária até <strong class="text-yellow-800">21 de novembro de 2025</strong> para implementação em janeiro de 2025</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-lg shadow-md border border-stone-200 mb-6">
+                <h3 class="text-2xl font-bold mb-6 text-center" style="color: #1e3a5f;">Módulos Incluídos - Enterprise</h3>
+                
+                <div class="overflow-x-auto mb-8">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="bg-stone-100">
+                                <th class="px-4 py-3 text-left font-semibold text-stone-800">Módulo</th>
+                                <th class="px-4 py-3 text-center font-semibold text-stone-800">Valor Mensal (por vida)</th>
+                                <th class="px-4 py-3 text-center font-semibold text-stone-800">Valor Anual (por vida)</th>
+                                <th class="px-4 py-3 text-center font-semibold text-stone-800">Observação</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-stone-200">
+                            <tr class="bg-white">
+                                <td class="px-4 py-3 font-semibold text-stone-900">Base Factorial (com Compensation)</td>
+                                <td class="px-4 py-3 text-center text-stone-700">R$ 9,00</td>
+                                <td class="px-4 py-3 text-center font-bold" style="color: #059669;">R$ 8,00</td>
+                                <td class="px-4 py-3 text-center text-stone-600 text-xs">Inclui gestão de documentos, admissão digital</td>
+                            </tr>
+                            <tr class="bg-stone-50">
+                                <td class="px-4 py-3 text-stone-900">🚨 Controle de Ponto</td>
+                                <td class="px-4 py-3 text-center text-stone-700">R$ 4,15</td>
+                                <td class="px-4 py-3 text-center font-bold" style="color: #059669;">R$ 3,70</td>
+                                <td class="px-4 py-3 text-center text-stone-600 text-xs">PRIORIDADE MÁXIMA</td>
+                            </tr>
+                            <tr class="bg-white">
+                                <td class="px-4 py-3 text-stone-900">Férias e Ausências</td>
+                                <td class="px-4 py-3 text-center text-stone-700">R$ 4,30</td>
+                                <td class="px-4 py-3 text-center font-bold" style="color: #059669;">R$ 3,85</td>
+                                <td class="px-4 py-3 text-center text-stone-600 text-xs">CLT e PJ</td>
+                            </tr>
+                            <tr class="bg-stone-50">
+                                <td class="px-4 py-3 text-stone-900">Desempenho</td>
+                                <td class="px-4 py-3 text-center text-stone-700">R$ 4,20</td>
+                                <td class="px-4 py-3 text-center font-bold" style="color: #059669;">R$ 3,75</td>
+                                <td class="px-4 py-3 text-center text-stone-600 text-xs">Avaliação semestral, competências</td>
+                            </tr>
+                            <tr class="bg-white">
+                                <td class="px-4 py-3 text-stone-900">Pesquisas</td>
+                                <td class="px-4 py-3 text-center text-stone-700">R$ 5,00</td>
+                                <td class="px-4 py-3 text-center font-bold" style="color: #059669;">R$ 4,50</td>
+                                <td class="px-4 py-3 text-center text-stone-600 text-xs">Clima, pulso, satisfação</td>
+                            </tr>
+                            <tr class="bg-stone-50">
+                                <td class="px-4 py-3 font-semibold text-stone-900">Recrutamento e Seleção Enterprise</td>
+                                <td class="px-4 py-3 text-center font-semibold text-stone-800">R$ 650,00</td>
+                                <td class="px-4 py-3 text-center font-bold font-semibold" style="color: #059669;">R$ 580,00</td>
+                                <td class="px-4 py-3 text-center text-stone-600 text-xs">Valor fixo (não por vida)</td>
+                            </tr>
+                            <tr class="bg-white">
+                                <td class="px-4 py-3 text-stone-900">Gestão de Projetos</td>
+                                <td class="px-4 py-3 text-center text-stone-700">R$ 4,30</td>
+                                <td class="px-4 py-3 text-center font-bold" style="color: #059669;">R$ 3,85</td>
+                                <td class="px-4 py-3 text-center text-stone-600 text-xs">Apontamento horas, custos</td>
+                            </tr>
+                            <tr class="bg-stone-50">
+                                <td class="px-4 py-3 text-stone-900">Gestão de Despesas</td>
+                                <td class="px-4 py-3 text-center text-stone-700">R$ 4,85</td>
+                                <td class="px-4 py-3 text-center font-bold" style="color: #059669;">R$ 4,30</td>
+                                <td class="px-4 py-3 text-center text-stone-600 text-xs">Orçamentos, categorias</td>
+                            </tr>
+                            <tr class="bg-white">
+                                <td class="px-4 py-3 text-stone-900">Aprovisionamento</td>
+                                <td class="px-4 py-3 text-center text-stone-700">R$ 250,00</td>
+                                <td class="px-4 py-3 text-center font-bold" style="color: #059669;">R$ 222,50</td>
+                                <td class="px-4 py-3 text-center text-stone-600 text-xs">Valor fixo (não por vida)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg border-l-4 border-blue-600 mb-6">
+                    <h4 class="text-xl font-bold mb-4" style="color: #1e3a5f;">Cálculo do Investimento</h4>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-stone-700">Base Factorial (65 vidas × R$ 8,00)</span>
+                            <span class="font-bold text-stone-900">R$ 520,00</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-stone-700">Controle de Ponto (65 vidas × R$ 3,70)</span>
+                            <span class="font-bold text-stone-900">R$ 240,50</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-stone-700">Férias e Ausências (65 vidas × R$ 3,85)</span>
+                            <span class="font-bold text-stone-900">R$ 250,25</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-stone-700">Desempenho (65 vidas × R$ 3,75)</span>
+                            <span class="font-bold text-stone-900">R$ 243,75</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-stone-700">Pesquisas (65 vidas × R$ 4,50)</span>
+                            <span class="font-bold text-stone-900">R$ 292,50</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-stone-700">Recrutamento e Seleção Enterprise</span>
+                            <span class="font-bold text-stone-900">R$ 580,00</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-stone-700">Gestão de Projetos (65 vidas × R$ 3,85)</span>
+                            <span class="font-bold text-stone-900">R$ 250,25</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-stone-700">Gestão de Despesas (65 vidas × R$ 4,30)</span>
+                            <span class="font-bold text-stone-900">R$ 279,50</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-stone-700">Aprovisionamento</span>
+                            <span class="font-bold text-stone-900">R$ 222,50</span>
+                        </div>
+                        <div class="border-t-2 border-stone-300 pt-3 mt-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-xl font-bold text-stone-900">Total Mensal (Anual)</span>
+                                <span class="text-2xl font-bold" style="color: #059669;">R$ 2.688,25</span>
+                            </div>
+                            <div class="flex justify-between items-center mt-2">
+                                <span class="text-lg text-stone-600">Total Anual</span>
+                                <span class="text-xl font-bold text-stone-800">R$ 32.259,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                    <div class="bg-stone-50 p-4 rounded-lg text-center">
+                        <p class="text-sm text-stone-600 mb-1">Por Vida/Mês</p>
+                        <p class="text-2xl font-bold text-stone-900">R$ 41,36</p>
+                        <p class="text-xs text-stone-500 mt-1">(excluindo módulos fixos)</p>
+                    </div>
+                    <div class="bg-stone-50 p-4 rounded-lg text-center">
+                        <p class="text-sm text-stone-600 mb-1">Por Vida/Ano</p>
+                        <p class="text-2xl font-bold text-stone-900">R$ 36,78</p>
+                        <p class="text-xs text-stone-500 mt-1">(excluindo módulos fixos)</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg text-center border-l-4 border-blue-600">
+                        <p class="text-sm text-stone-600 mb-1">Economia Anual</p>
+                        <p class="text-2xl font-bold" style="color: #2563eb;">11%</p>
+                        <p class="text-xs text-stone-500 mt-1">Pagamento anual vs. mensal</p>
+                    </div>
+                </div>
+
+                <div class="bg-emerald-50 p-6 rounded-lg border-l-4 border-emerald-600">
+                    <h4 class="text-lg font-bold mb-3" style="color: #059669;">✓ O que está incluído:</h4>
+                    <ul class="space-y-2 text-stone-700 text-sm">
+                        <li class="flex items-start">
+                            <span class="mr-2 text-emerald-600">•</span>
+                            <span><strong>Assinatura eletrônica ilimitada</strong> (substitui D4Sign com limite de 20/mês)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 text-emerald-600">•</span>
+                            <span><strong>Armazenamento ilimitado</strong> de documentos na nuvem</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 text-emerald-600">•</span>
+                            <span><strong>Suporte dedicado</strong> durante implementação e período de transição</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 text-emerald-600">•</span>
+                            <span><strong>Treinamento completo</strong> da equipe (Fabiana, Ellen, Cristiane, Leonardo)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 text-emerald-600">•</span>
+                            <span><strong>Integração com Dynamics CRM</strong> e Power BI incluída</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 text-emerald-600">•</span>
+                            <span><strong>API completa</strong> e editor SQL para análises avançadas</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-6 bg-stone-100 p-4 rounded-lg">
+                    <p class="text-sm text-stone-600 text-center">
+                        <strong>Nota:</strong> Cálculo baseado em 65 colaboradores (média entre 60-70). 
+                        Valores podem variar conforme número exato de vidas. 
+                        Módulos de Recrutamento e Aprovisionamento são valores fixos, não variam por quantidade de colaboradores.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="integracao" class="scroll-mt-20 mb-16">
+            <h2 class="text-3xl font-bold tracking-tight text-stone-900 mb-6">Integração com Ecossistema Microsoft</h2>
+            
+            <div class="bg-white p-8 rounded-lg shadow-md border border-stone-200">
+                <p class="text-lg text-stone-700 mb-6">
+                    Como <strong>Partner Microsoft</strong>, a L3 utiliza extensivamente o ecossistema Microsoft. A Factorial oferece integração nativa e profunda com todas as ferramentas que vocês já utilizam.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
+                        <h3 class="text-xl font-bold mb-4" style="color: #2563eb;">Microsoft 365</h3>
+                        <ul class="space-y-2 text-stone-700">
+                            <li class="flex items-start">
+                                <span class="mr-2 text-blue-600">✓</span>
+                                <span><strong>Outlook:</strong> Calendário sincronizado, agendamento de reuniões</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="mr-2 text-blue-600">✓</span>
+                                <span><strong>Teams:</strong> One-on-One gravado com transcrição por IA</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="mr-2 text-blue-600">✓</span>
+                                <span><strong>SSO:</strong> Login único com conta Microsoft</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-indigo-50 p-6 rounded-lg border-l-4 border-indigo-600">
+                        <h3 class="text-xl font-bold mb-4" style="color: #4f46e5;">Dynamics CRM</h3>
+                        <ul class="space-y-2 text-stone-700">
+                            <li class="flex items-start">
+                                <span class="mr-2 text-indigo-600">✓</span>
+                                <span><strong>API:</strong> Integração completa via API</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="mr-2 text-indigo-600">✓</span>
+                                <span><strong>Cadastro:</strong> Colaboradores criados automaticamente no Dynamics</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="mr-2 text-indigo-600">✓</span>
+                                <span><strong>Custos:</strong> Dados de custos exportados para Dynamics</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-cyan-50 p-6 rounded-lg border-l-4 border-cyan-600">
+                        <h3 class="text-xl font-bold mb-4" style="color: #0891b2;">Power BI</h3>
+                        <ul class="space-y-2 text-stone-700">
+                            <li class="flex items-start">
+                                <span class="mr-2 text-cyan-600">✓</span>
+                                <span><strong>Exportação:</strong> Dados em XLSX, CSV para seus 25 painéis</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="mr-2 text-cyan-600">✓</span>
+                                <span><strong>SQL:</strong> Editor SQL para queries personalizadas</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="mr-2 text-cyan-600">✓</span>
+                                <span><strong>API:</strong> Acesso completo via API para análises avançadas</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-slate-50 p-6 rounded-lg border-l-4 border-slate-600">
+                        <h3 class="text-xl font-bold mb-4" style="color: #475569;">Azure & DevOps</h3>
+                        <ul class="space-y-2 text-stone-700">
+                            <li class="flex items-start">
+                                <span class="mr-2 text-slate-600">✓</span>
+                                <span><strong>Azure:</strong> Hospedagem compatível (vocês usam Azure)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="mr-2 text-slate-600">✓</span>
+                                <span><strong>DevOps:</strong> Dados de projetos podem ser integrados</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="mr-2 text-slate-600">✓</span>
+                                <span><strong>Segurança:</strong> ISO 27001, LGPD/GDPR compliant</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-8 bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg border-l-4 border-blue-600">
+                    <h3 class="text-lg font-bold mb-2" style="color: #1e3a5f;">💡 Vantagem Competitiva</h3>
+                    <p class="text-stone-700">
+                        A Factorial é <strong>parceira oficial da Microsoft</strong> e ganhou o prêmio de Startup do Ano 2024 pela Microsoft. 
+                        Nossa integração não é genérica - foi desenvolvida especificamente para empresas que, como a L3, 
+                        dependem do ecossistema Microsoft para suas operações.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="scroll-mt-20 mb-16">
+            <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-8 rounded-lg shadow-lg text-white">
+                <h2 class="text-3xl font-bold mb-4">Próximos Passos</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">1. Proposta Detalhada</h3>
+                        <p class="text-blue-100">Envio de proposta comercial com valores e escopo detalhado</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">2. Apresentação Interna</h3>
+                        <p class="text-blue-100">Apresentação para equipe L3 e aprovação</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">3. Implementação</h3>
+                        <p class="text-blue-100">Início em novembro para go-live em janeiro de 2025</p>
+                    </div>
+                </div>
+                <div class="bg-yellow-500 bg-opacity-20 p-4 rounded-lg border-l-4 border-yellow-300">
+                    <p class="text-lg font-bold mb-1">⏰ Prazo Final para Aprovação</p>
+                    <p class="text-xl">21 de novembro de 2025</p>
+                    <p class="text-blue-100 text-sm mt-2">Necessário para garantir implementação e go-live em janeiro de 2025</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 mt-12 border-t border-stone-200">
+        <p class="text-sm text-stone-500">Proposta Confidencial | Factorial RH & L3</p>
+        <p class="text-xs text-stone-400 mt-2">Baseado nas reuniões realizadas em outubro de 2024</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('[data-nav-link]');
+            const sections = document.querySelectorAll('section');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    if (mobileMenu.classList.contains('hidden') === false) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                });
+            });
+
+            const observerOptions = { root: null, rootMargin: '0px', threshold: 0.4 };
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute('id');
+                        navLinks.forEach(link => {
+                            link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => observer.observe(section));
+        });
+    </script>
+</body>
+</html>
+
