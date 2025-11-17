@@ -1,0 +1,27 @@
+# Arquivos de credenciais e secrets
+**/client_secret.json
+**/credenciais_google.json
+**/*credentials*.json
+**/*secret*.json
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Arquivos compilados
+*.spec
+*.pyc
+
+# Arquivos de ambiente
+.env
+.venv
+env/
+venv/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
